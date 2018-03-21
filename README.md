@@ -8,9 +8,6 @@ A job implementing threads
 3. El recurso compartido (de ahora en mas RC) es un recurso al cual intentan acceder todos los hilos. En este caso el RC es un entero al cual el productor cuando pueda tener acceso a el va a incrementar su valor hasta llegar a donde mas pueda o 100 (que es el tope de stock). A su vez el consumidor va a intentar acceder al RC para disminuir su valor hasta, en lo posible, llegar a 0, siempre y cuando haya stock.
 
 Podemos instanciar un Thread mediante
-
-NEW de Thread.
-
-
-Implementar la Interfaz Runnable e implementar el metodo run.
-      -Extender la Clase Thread y sobre escribir el metodo run.
+      *NEW de Thread.
+      *Implementar la Interfaz Runnable e implementar el metodo run.
+      *Extender la Clase Thread y sobre escribir el metodo run.
